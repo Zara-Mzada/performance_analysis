@@ -31,3 +31,7 @@ tasks.named('test') {
 //    useJUnitPlatform()
     enabled = false
 }
+
+bootJar {
+    archiveFileName = 'app.jar'
+}
