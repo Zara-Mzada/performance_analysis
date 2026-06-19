@@ -107,6 +107,10 @@ performance_analysis/
 
 ├── src/main/java/com/performance_analyze/
 
+│   ├── config/
+
+│   │   └── CorsConfig.java       #  CORS configuration
+
 │   ├── controller/
 
 │   │   └── PostController.java       # REST endpoints
