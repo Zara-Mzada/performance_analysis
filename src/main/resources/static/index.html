@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meta Performance Analysis</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>📊 Meta Post Performance Analysis</header>
+        <div class="container">
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Average Likes</h3>
+                    <p id="avgLikes">—</p>
+                </div>
+                <div class="card">
+                    <h3>Average Comments</h3>
+                    <p id="avgComments">—</p>
+                </div>
+                <div class="card">
+                    <h3>Best Day</h3>
+                    <p id="bestDay">—</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🏆 Top 3 Posts by Engagement</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Post</th>
+                        <th>Likes</th>
+                        <th>Comments</th>
+                        <th>Engagement</th>
+                    </tr>
+                    </thead>
+                    <tbody id="top3Body"></tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>📅 Likes by Day of Week</h2>
+                <canvas id="likesChart"></canvas>
+            </div>
+        </div>
+
+    <script src="index.js"></script>
+    </body>
+</html>
