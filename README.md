@@ -15,22 +15,30 @@ Prerequisites
 - Gradle
 
 1. Clone repository  
-_git clone https://github.com/Zara-Mzada/performance_analysis/tree/main_
-_cd performance_analysis_
+````
+git clone https://github.com/Zara-Mzada/performance_analysis/tree/main  
+cd performance_analysis
+````
 
 
 2. Set environment variable  
 Create a .env file or set the following variables:
-_META_ACCESS_TOKEN=your_meta_access_token_
-_META_PAGE_ID=your_facebook_page_id_
+````
+META_ACCESS_TOKEN=your_meta_access_token
+META_PAGE_ID=your_facebook_page_id
+````
 
 
 3. Build the project  
-_./gradlew clean build -x test_
+````
+./gradlew clean build -x test
+````
 
 
 4. Run the application  
-_java -jar build/libs/app.jar_
+````
+java -jar build/libs/app.jar
+````
 
 In this case application will start on http://localhost:8081
 
