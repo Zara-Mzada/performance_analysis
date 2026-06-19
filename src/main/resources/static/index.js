@@ -1,4 +1,4 @@
-
+console.log("JS loaded:", window.location.origin);
 fetch('/api/meta/analysis')
     .then(res => res.json())
     .then(data => {
