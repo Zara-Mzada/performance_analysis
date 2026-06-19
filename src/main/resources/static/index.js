@@ -1,5 +1,5 @@
 
-fetch('http://localhost:8081/api/meta/analysis')
+fetch('/api/meta/analysis')
     .then(res => res.json())
     .then(data => {
 
